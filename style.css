@@ -1,0 +1,162 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.nousvousservons {
+    font-style: bold;
+}
+
+.inscription {
+    background-color: #6415ff;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.inscription:hover {
+    background-color: darkblue;
+}
+
+.photo1 {
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    margin-left: auto;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.menudelicieux {
+    margin-left: 50px;
+}
+
+.repaschezvous {
+    background-color: #6415ff;
+    color: white;
+    font-style: italic;
+    width: 280px;
+}
+
+.commandermtn {
+    background-color: #6415ff;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+
+.commandermtn:hover {
+    background-color: darkblue;
+}
+
+.leschefs {
+    background: none;
+    border: none;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.nousvousservons {
+    margin-left: 50px;
+}
+
+.installé {
+    color: #6415ff;
+}
+
+.photo2 {
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    margin-left: auto;
+}
+
+.depuis5ans {
+    background-color: #6415ff;
+    font-style: italic;
+    color: white;
+    width: 220px;
+}
+
+.ajouter1an {
+    display: block;
+    background-color: #6415ff;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+
+.ajouter1an:hover {
+    background-color: darkblue;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .container {
+        align-items: center;
+        justify-content: start;
+    }
+
+    .span {
+        display: none;
+    }
+
+    .container2 {
+        width: 85%;
+        display: block;
+    }
+
+    .menudelicieux {
+        display: block;
+        position: absolute;
+    }
+
+    .photo1 {
+        align-items: center;
+    }
+
+    .container3 {
+        width: 85%;
+        display: block;
+    }
+
+    .nousvousservons {
+        display: block;
+        position: absolute;
+    }
+
+    .photo2 {
+        margin-top: 200px;
+    }
+}
