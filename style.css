@@ -2,6 +2,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.logotitre {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     height: 60px;
     width: 60px;
@@ -123,18 +128,23 @@ body {
     width: 100px;
 }
 
+.incroyablee {
+    display: flex;
+    justify-content: center;
+}
+
 .presta {
     background-color: #6415ff;
     font-style: italic;
     color: white;
-    width: 220px;
+    width: 160px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .logosprestations {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .photo3, .photo4, .photo5 {
@@ -145,7 +155,6 @@ body {
 
 .photo3:hover, .photo4:hover, .photo5:hover {
     padding: 3px;
-    
 }
 
 .buttons {
@@ -182,7 +191,7 @@ body {
 
 .les3c {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .footer {
