@@ -138,9 +138,14 @@ body {
 }
 
 .photo3, .photo4, .photo5 {
-    width: 60px;
+    width: 80px;
     background-color: rgb(228, 228, 228);
-    border-radius: 30px;
+    border-radius: 50px;
+}
+
+.photo3:hover, .photo4:hover, .photo5:hover {
+    padding: 3px;
+    
 }
 
 .buttons {
@@ -210,7 +215,6 @@ body {
 
 input {
     background: #c2c2c2;
-    border: #ffffff;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -235,6 +239,10 @@ input {
     background-color: darkblue;
 }
 
+.input:hover {
+    border-color: #6415ff;
+}
+
 .separation {
     height: 1px;
     border-top: 1px, black;
@@ -252,12 +260,12 @@ input {
         display: none;
     }
 
-    .container2 {
+    .container2, .container3 {
         width: 85%;
         display: block;
     }
 
-    .menudelicieux {
+    .menudelicieux, .nousvousservons  {
         display: block;
         position: absolute;
     }
@@ -266,17 +274,30 @@ input {
         align-items: center;
     }
 
-    .container3 {
-        width: 85%;
-        display: block;
-    }
-
-    .nousvousservons {
-        display: block;
-        position: absolute;
-    }
-
     .photo2 {
         margin-top: 200px;
+    }
+
+    .footer, .footer2 {
+        width: 1000px;
+    }
+
+    .logosprestations {
+        display: grid;
+    }
+
+    .incroyablee {
+        display: inline-flex;
+        padding-top: 250px;
+    }
+
+    .presta {
+        display: inline-flex;
+        width: 175px;
+    }
+
+    .container5 {
+        display: inline-grid;
+        width: auto;
     }
 }
