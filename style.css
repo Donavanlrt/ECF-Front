@@ -28,10 +28,6 @@ body {
     border-radius: 5px;
 }
 
-.inscription:hover {
-    background-color: darkblue;
-}
-
 .photo1 {
     height: 300px;
     border-radius: 30px;
@@ -69,10 +65,6 @@ body {
     margin-top: 30px;
 }
 
-.commandermtn:hover {
-    background-color: darkblue;
-}
-
 .leschefs {
     background: none;
     border: none;
@@ -106,7 +98,7 @@ body {
     width: 220px;
 }
 
-.ajouter1an {
+.ajouter1an, .nombresaleatoires {
     display: block;
     font-weight: bold;
     background-color: #6415ff;
@@ -120,8 +112,8 @@ body {
     margin-top: 30px;
 }
 
-.ajouter1an:hover {
-    background-color: darkblue;
+.container4 {
+    padding: 50px;
 }
 
 .incroyable {
@@ -165,7 +157,6 @@ body {
 }
 
 .nouschoisir {
-    margin-left: 50px;
     background-color: #6415ff;
     font-style: italic;
     color: white;
@@ -184,20 +175,6 @@ body {
     font-weight: bold;
 }
 
-.nombresaleatoires {
-    display: block;
-    font-weight: bold;
-    background-color: #6415ff;
-    color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    border: none;
-    margin-top: 30px;
-}
-
 .les3c {
     display: flex;
     justify-content: space-around;
@@ -209,18 +186,58 @@ body {
     padding-top: 50px;
     align-items: baseline;
     justify-content: space-around;
+    padding-bottom: 30px;
 }
 
 .footer2 {
     background-color: rgb(228, 228, 228);
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .logo2, .logofb, .logotwi, .logoytb {
     height: 30px;
     width: 30px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.email {
+    background-color: blue;
+}
+
+input {
+    background: #c2c2c2;
+    border: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.inscription2 {
+    background-color: #6415ff;
+    font-weight: bold;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.inscription:hover, .inscription2:hover, .commandermtn:hover, .ajouter1an:hover, .nombresaleatoires:hover {
+    background-color: darkblue;
+}
+
+.separation {
+    height: 1px;
+    border-top: 1px, black;
 }
 
 /* Responsive */
