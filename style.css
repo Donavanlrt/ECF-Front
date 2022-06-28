@@ -10,6 +10,7 @@ body {
 .container {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nousvousservons {
@@ -18,6 +19,7 @@ body {
 
 .inscription {
     background-color: #6415ff;
+    font-weight: bold;
     color: white;
     padding-left: 30px;
     padding-right: 30px;
@@ -56,6 +58,7 @@ body {
 
 .commandermtn {
     background-color: #6415ff;
+    font-weight: bold;
     color: white;
     padding-left: 30px;
     padding-right: 30px;
@@ -105,6 +108,7 @@ body {
 
 .ajouter1an {
     display: block;
+    font-weight: bold;
     background-color: #6415ff;
     color: white;
     padding-left: 30px;
@@ -118,6 +122,105 @@ body {
 
 .ajouter1an:hover {
     background-color: darkblue;
+}
+
+.incroyable {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.presta {
+    background-color: #6415ff;
+    font-style: italic;
+    color: white;
+    width: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logosprestations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo3, .photo4, .photo5 {
+    width: 60px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 30px;
+}
+
+.buttons {
+    background: none;
+    border: none;
+    font-weight: bold;
+    color: #6415ff;
+}
+
+.container5 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.nouschoisir {
+    margin-left: 50px;
+    background-color: #6415ff;
+    font-style: italic;
+    color: white;
+    width: 230px;
+}
+
+.nouschoisirr {
+    margin-left: 50px;
+}
+
+.marque {
+    color: #6415ff;
+}
+
+.ul {
+    font-weight: bold;
+}
+
+.nombresaleatoires {
+    display: block;
+    font-weight: bold;
+    background-color: #6415ff;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+
+.les3c {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    padding-top: 50px;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.footer2 {
+    background-color: rgb(228, 228, 228);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo2, .logofb, .logotwi, .logoytb {
+    height: 30px;
+    width: 30px;
 }
 
 /* Responsive */
